@@ -1,6 +1,7 @@
 black
 datetime
 pylint
+pysimplegui
 pyyaml
 telethon
 yamllint
