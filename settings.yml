@@ -1,0 +1,23 @@
+---
+
+api_id: 16460673
+api_hash: cced480d69646bf00285e8e46b6979a8
+app_short_name: Ojie
+
+messages:
+  one: |
+    .gcast yang mau jdi bestie,sekalian mutual sni cht
+  two: |
+    .gcast cri cwo klo pc ga aneh² sini chat
+
+raid:
+  ojieadminn1:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 900
+  ojieadmin2:
+    message_type: two
+    # this is in seconds, so the below example is equal to 5 minutes
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 900
