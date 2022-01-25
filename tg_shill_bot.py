@@ -13,7 +13,7 @@ with open("settings.yml", "r", encoding="utf8") as settings:
 
 API_ID = CONFIG["api_id"]
 API_HASH = CONFIG["api_hash"]
-APP_SHORT_NAME = CONFIG["app_short_name"]
+STRING_SESSION = CONFIG["app_short_name"]
 MESSAGES_CONFIG = CONFIG["messages"]
 RAID_CONFIG = CONFIG["raid"]
 CLIENT = None
@@ -73,7 +73,7 @@ def do_raid():
 
 
 if __name__ == "__main__":
-    CLIENT = TelegramClient(StringSession, API_ID, API_HASH)
+    CLIENT = TelegramClient(STRING_SESSION, API_ID, API_HASH)
     CLIENT.start()
     time.sleep(10)
 
