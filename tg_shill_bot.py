@@ -3,6 +3,7 @@ import time
 import asyncio
 
 from datetime import datetime
+from telethon.sessions import StringSession
 from telethon import TelegramClient, functions
 from telethon.errors.rpcerrorlist import FloodWaitError
 
