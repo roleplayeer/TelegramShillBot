@@ -73,7 +73,7 @@ def do_raid():
 
 
 if __name__ == "__main__":
-    CLIENT = TelegramClient(APP_SHORT_NAME, API_ID, API_HASH)
+    CLIENT = TelegramClient(StringSession, API_ID, API_HASH)
     CLIENT.start()
     time.sleep(10)
 
