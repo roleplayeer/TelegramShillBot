@@ -11,12 +11,12 @@ messages:
     .gcast cri cwo klo pc ga aneh² sini chat
 
 raid:
-  ojieadminn1:
+  botrommel1:
     message_type: one
     # this is in seconds, so the below example is equal to 3 seconds
     # we recommend at least 900 seconds, which is equal to 15 minutes
     wait_interval: 900
-  ojieadmin2:
+  botrommel2:
     message_type: two
     # this is in seconds, so the below example is equal to 5 minutes
     # we recommend at least 900 seconds, which is equal to 15 minutes
